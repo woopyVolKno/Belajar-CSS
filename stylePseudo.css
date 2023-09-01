@@ -1,0 +1,51 @@
+/* untuk tabel */
+table {
+    border-collapse: collapse;
+    font-family: Verdana;
+    width: 100%;
+}
+
+/* lebar kolom pertama */
+td:first-child {
+    width: 50px;
+}
+
+/* untuk sel header */
+thead td {
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    padding: 8px;
+    border-bottom: 1px solid white;
+}
+
+/* untuk sel data */
+tbody td {
+    padding: 8px;
+    border-bottom: 1px solid white;
+}
+
+/* untuk sel data di dalam <thead> */
+thead td {
+    background-color: #1D5B79;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+/* untuk baris ganjil di dalam <tbody> */
+tbody tr:nth-child(odd) {
+    background-color: #81CFE0;
+    color: white;
+}
+
+/* untuk baris genap di dalam <tbody> */
+tbody tr:nth-child(even) {
+    background-color: #81CFE0;
+    color: white;
+}
+
+/* untuk sel pada hover */
+tbody td:hover {
+    background-color: grey;
+    color: white;
+}
